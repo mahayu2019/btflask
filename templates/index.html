@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <style>
+        .container {
+            background: #336600;
+        }
+
+        .row {
+            margin-bottom: 15px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"><img src="../static/imgs/p.jpg" width="100%"></div>
+        <div class="col-md-3"><img src="../static/imgs/p.jpg" width="100%"></div>
+        <div class="col-md-3"><img src="../static/imgs/p.jpg" width="100%"></div>
+        <div class="col-md-3"><img src="../static/imgs/p.jpg" width="100%"></div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-6"><img src="../static/imgs/p.jpg" width="100%"></div>
+        <div class="col-md-6"><img src="../static/imgs/p.jpg" width="100%"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3"><img src="../static/imgs/p.jpg" width="100%"></div>
+        <!--col-md-offset-6  向右空6列-->
+        <div class="col-md-3 col-md-offset-6"><img src="../static/imgs/p.jpg" width="100%"></div>
+
+    </div>
+    <div class="row">
+        <!--pull-right/left  浮动到右边/左边-->
+        <div class="col-md-2 pull-right"><img src="../static/imgs/p.jpg" width="100%"></div>
+    </div>
+
+    <!--二次分割,子栅格在主栅格内再次划分-->
+    <div class="row">
+        <div class="col-md-4"><img src="../static/imgs/p.jpg" width="100%">
+            <div class="col-sm-6 "><img src="../static/imgs/p.jpg" width="100%"></div>
+            <div class="col-sm-6 "><img src="../static/imgs/p.jpg" width="100%"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
